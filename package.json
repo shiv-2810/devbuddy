@@ -1,0 +1,59 @@
+{
+  "name": "devbuddy",
+  "version": "0.1.0",
+  "description": "Developer-friendly runtime toolkit that intercepts JavaScript errors and provides helpful suggestions",
+  "main": "src/index.js",
+  "directories": {
+    "example": "examples",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src/**/*.js",
+    "example": "node examples/brokenApp.js"
+  },
+  "keywords": [
+    "error",
+    "debug",
+    "developer",
+    "junior",
+    "helper",
+    "hints",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "Shivam Kumar <s9431494772@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiv-2810/devbuddy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shiv-2810/devbuddy/issues"
+  },
+  "homepage": "https://github.com/shiv-2810/devbuddy#readme",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.2.5"
+  },
+  "vitest": {
+    "globals": true,
+    "environment": "node"
+  },
+  "files": [
+    "src/",
+    "LICENSE",
+    "README.md"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "devbuddy-test-project",
+  "version": "1.0.0",
+  "description": "A test project for demonstrating DevBuddy's error handling capabilities",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test:reference": "node src/reference-error.js",
+    "test:type": "node src/type-error.js",
+    "test:range": "node src/range-error.js",
+    "test:fs": "node src/filesystem-error.js",
+    "test:network": "node src/network-error.js",
+    "test:promise": "node src/promise-error.js"
+  },
+  "keywords": [
+    "devbuddy",
+    "error-handling",
+    "demo"
+  ],
+  "author": "Shivam Kumar <s9431494772@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+} 
